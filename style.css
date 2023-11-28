@@ -10,13 +10,11 @@ body {
 
 header {
   height: 100vh;
-  background-image:
-    url(imgs/hero_img.jpg);
+  background-image: url(imgs/hero_img.jpg);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
   background-attachment: fixed;
- 
 }
 
 .hamburguer {
@@ -34,7 +32,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  width: 20vw; 
+  width: 20vw;
   height: 100vh;
   background-image: linear-gradient(135deg, #667eea 0, #764ba2 100%);
   display: flex;
@@ -62,7 +60,6 @@ header {
   background-color: #f5f5f5;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
-
 }
 
 .nav-links:hover::before {
@@ -95,7 +92,7 @@ header {
   & p {
     font-size: 1.3rem;
     font-weight: 500;
-  font-style: italic;
+    font-style: italic;
   }
 }
 .spread {
@@ -155,6 +152,7 @@ header {
   .img-galeria {
     width: 30%;
     display: block;
+    border-radius: 10px;
     margin-top: 15px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     cursor: pointer;
