@@ -62,6 +62,7 @@ header {
   background-color: #f5f5f5;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
+
 }
 
 .nav-links:hover::before {
@@ -158,6 +159,10 @@ header {
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.5);
     cursor: pointer;
     object-fit: cover;
+    &:hover {
+      transform: scale(0.9);
+      transition: 0.3s;
+    }
   }
 }
 
