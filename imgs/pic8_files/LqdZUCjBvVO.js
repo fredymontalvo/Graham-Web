@@ -1,5 +1,0 @@
-;/*FB_PKG_DELIM*/
-
-__d("PolarisStoriesV3ReelPageQuery$Parameters",[],(function(a,b,c,d,e,f){"use strict";a={kind:"PreloadableConcreteRequest",params:{id:"6698263460267576",metadata:{},name:"PolarisStoriesV3ReelPageQuery",operationKind:"query",text:null}};e.exports=a}),null);
-__d("polarisShuffle",[],(function(a,b,c,d,e,f){"use strict";function a(a){var b,c,d;for(d=a.length-1;d>0;d--)b=Math.floor(Math.random()*(d+1)),c=a[d],a[d]=a[b],a[b]=c}f["default"]=a}),66);
-__d("PolarisStoriesV3Root.entrypoint",["JSResourceForInteraction","PolarisStoriesV3ReelPageQuery$Parameters"],(function(a,b,c,d,e,f,g){"use strict";a={getPreloadProps:function(a){var b=a.passthroughProps,d=a.routeParams;a=a.routeProps;b=b!=null?b.initialMediaId:d.initial_media_id;return{queries:{query:{parameters:c("PolarisStoriesV3ReelPageQuery$Parameters"),variables:{media_id:b,reel_ids_arr:[a.user_id]}}}}},root:c("JSResourceForInteraction")("PolarisStoriesV3Root.react").__setRef("PolarisStoriesV3Root.entrypoint")};g["default"]=a}),98);
