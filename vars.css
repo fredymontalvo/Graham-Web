@@ -1,3 +1,31 @@
-  :root{
-    --color--hamburguerBoton:#bce0dc;
-  }
+:root {
+  /*header*/
+  --color--hamburguerBoton: #bce0dc;
+  --color-menuNavetion: rgba(165, 205, 213, 255);
+  --color-links: #6e7194;
+  --color-linkshover: #6e7194;
+  --color-headTitle: #03a2a2;
+
+  /*Course*/
+  --color-subtitle: #14adad;
+  --color-service: #14adad;
+  --color-BgNumber: linear-gradient(135deg, #b3dcdf 0, #88bec4 100%);
+  --color-number: #f5f5f5;
+
+  /*Gallery*/
+  --color-BgGallery: #f2f2f2;
+  --color-closeButton: rgba(245, 245, 245, 0.643);
+  --color-imageLight: rgba(0, 0, 0, 0.7);
+
+  /* About */
+  --color--acerca: #14adad;
+  --color-spanBienvenidos: #18aba8;
+
+  /* Footer */
+  --color-footer: rgba(192, 224, 224, 255);
+  --color-footerContent: #9f8ad0;
+  --color-lineFooter: #9f8ad0;
+  --color-direction: #f15bb5;
+  --color-social-media-icon: #9f8ad0;
+  --color-iconos: #efc28d;
+}
